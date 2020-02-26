@@ -1,4 +1,4 @@
-# JS Datatypes and intro to iteration
+# JS Datatypes and Iteration
 
 ![Learn JS](hotel.jpg)
 
