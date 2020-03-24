@@ -1,4 +1,4 @@
-# JS Datatypes and Iteration
+# JS Datatypes
 
 ![Learn JS](hotel.jpg)
 
