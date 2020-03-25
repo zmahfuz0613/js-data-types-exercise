@@ -15,8 +15,8 @@
 const givenVariable = 20;
 const doubledVariable = givenVariable * 2;
 const tripledVariable = givenVariable * 3;
-// console.log(doubledVariable);
-// console.log('EXAMPLE', 'tripledVariable', tripledVariable);
+console.log(doubledVariable);
+console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 // After running this and feeling comfortable, feel free to comment the above block of code out (either give each line a // or highlight the block of code and press COMMAND - / )
 
 // DATATYPES
