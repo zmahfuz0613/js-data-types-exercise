@@ -15,8 +15,8 @@
 const givenVariable = 20;
 const doubledVariable = givenVariable * 2;
 const tripledVariable = givenVariable * 3;
-console.log(doubledVariable);
-console.log('EXAMPLE', 'tripledVariable', tripledVariable);
+// console.log(doubledVariable);
+// console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 // After running this and feeling comfortable, feel free to comment the above block of code out (either give each line a // or highlight the block of code and press COMMAND - / )
 
 // DATATYPES
@@ -28,11 +28,10 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
  *********************************/
 
 
-// Set a constant named 'bestClass' equal to the name of our SEI class (Supernovas) capitalized.
+// Set a constant named 'bestClass' equal to the name of our SEI class (myCohortNameHere) capitalized.
 // Log this value to the console.
+// let bestClass = 'myCohortNameHere'
 
-// let bestClass = 'Supernovas'
-// let bestClassLowercase = bestClass.toLowerCase()
 
 // Set a constant named bestClassLowercase that converts bestClass to an all lowercase string.
 // Log this value to the console.
@@ -80,12 +79,8 @@ const pounds = 155;
 /********************************
  *
  * STEP D: Grand Hotel Tremezzo: Part 1
- *
+ * Arrays and Array Methods
  *********************************/
-
-
-
-
 
 // Create a variable grandHotelTremezzoGuests that is equal to an array containing three strings:
 // 'George Clooney' 'Silvio Berlusconi'  and 'Isabella Rossellini'.
@@ -114,7 +109,6 @@ const pounds = 155;
 
 
 
-
 // A new guest is checking in for real! Add 'Mario Batali' to the end of our array.
 // He is wearing a disguise...but orange crocs.
 // Log grandHotelTremezzoGuests to the console.
@@ -127,9 +121,10 @@ const pounds = 155;
 
 
 
-// Another new guest is checking in for real! Add 'Mario Balotelli' to the end of our array.
+// Another new guest is checking in for real! He's a very important VIP guest
+// so let's add 'Gordon Ramsay' to the front of our array.
+// Who's going to tell him no? Not me.
 // Log grandHotelTremezzoGuests to the console.
-
 
 
 
@@ -144,15 +139,15 @@ const pounds = 155;
 
 
 
+
+
+
+
 /********************************
  *
  * STEP E: Grand Hotel Tremezzo: Part 2
  *
  *********************************/
-
-
-
-
 
 // Create a variable 'grandHotelTremezzoPastGuests' set to an empty Array.
 // Log grandHotelTremezzoPastGuests to the console
@@ -178,8 +173,9 @@ const pounds = 155;
 
 
 
+
 // ***Re-assign*** the variable that is equal to the number of guests staying
-// in our hotel by checking the currnt items count of grandHotelTremezzoGuests array.
+// in our hotel by checking the current items count of grandHotelTremezzoGuests array.
 // (Don't create a new variable!!)
 //  Log the variable to the console.
 
@@ -188,40 +184,54 @@ const pounds = 155;
 
 
 
+/********************************
+ *
+ * STEP E: Grand Hotel Tremezzo: Part 2
+ *
+ *********************************/
+
+// The hotel boss comes to you and says the hotel is going to host
+// a beautiful dinner party for the guests. He wants a copy
+// of the guest list on which to make his own edits and changes.
+// Create a variable that is a copy of the grandHotelTremezzoGuests
+// array and log the result.
+
+
+
+
+
+
+// The boss wanted the copy of the guest list but doesn't want to make
+// the changes himself. He says, "I sign your checks, you work for me!"
+// What choice do you have? You really need this job. He wants you to
+// check the list for him.
+// On your newly created variable containing the copy, see if the list
+// includes Gordon Ramsay, the boss' favorite chef.
+
+
+
+
+
+// Now that the boss has verified Gordon is on the list, he notices
+// over your shoulder that he's at the front. He wants you to move the
+// list order around so that Gordon is at the end because "You save the best for
+// last! Scramble it, reverse it, do whatever you have to do"
+// Find the right method to accomplish this task.
+
+
 
 
 /********************************
  *
- * STEP F: Grand Hotel Tremezzo: Part 3
+ * BONUS!!!!!!!
  *
  *********************************/
 
 
 
-// The hotel is going to deliver a bottle of Nero de Como to each guest.
-// Use a for loop to log out '*PERSON'S NAME* gets a bottle of Nero de Como'
-// for each guest in the grandHotelTremezzoGuests array.
-
-
-
-
-
-
-
-
-
-// The guests drank their bottles of Nero de Como and are getting rowdy.
-// Tell them to be quiet by using a for loop to log ... '*PERSON'S NAME* please hush up!!!'
-// for each guest in the grandHotelTremezzoGuests array.
-
-
-
-
-
-
 /********************************
  *
- * STEP G: Grand Hotel Tremezzo: Part 4
+ * Bonus 1
  *
  *********************************/
 
@@ -243,44 +253,47 @@ const pounds = 155;
 
 
 
+
+
+
 /********************************
  *
- * BONUS!!!!!!!
+ * Bonus 2
  *
  *********************************/
 
 
 
+// The hotel is going to deliver a bottle of Nero de Como to each guest.
+// Use a for loop to log out '*PERSON'S NAME* gets a bottle of Nero de Como'
+// for each guest in the grandHotelTremezzoGuests array.
+
+
+
+
+
+
+
+// The guests drank their bottles of Nero de Como and are getting rowdy.
+// Tell them to be quiet by using a for loop to log ... '*PERSON'S NAME* please hush up!!!'
+// for each guest in the grandHotelTremezzoGuests array.
+
+
+
+
+
+
+
+/********************************
+ *
+ * Bonus 3
+ *
+ *********************************/
+
 // Lake Como has started to flood so all of the guests are fleeing to Milan.
 // Use splice to remove all of the guests (simultaneously using push to add them
 // to the array of checked out guests). Log both grandHotelTremezzoGuests
 // and grandHotelTremezzoPastGuests in the same log statement.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
