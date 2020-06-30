@@ -95,7 +95,9 @@ console.log(kilograms)
 
 
 
+const grandHotelTremezzoGuests = ['George Clooney', 'Silvio Berlusconi', 'Isabella Rossellini']
 
+console.log(grandHotelTremezzoGuests)
 
 
 // A new guest is checking in! Add "Fabio" to the end of the array.
@@ -103,7 +105,8 @@ console.log(kilograms)
 
 
 
-
+grandHotelTremezzoGuests.push('Fabio')
+console.log(grandHotelTremezzoGuests)
 
 
 
@@ -112,7 +115,8 @@ console.log(kilograms)
 // Log grandHotelTremezzoGuests to the console.
 
 
-
+grandHotelTremezzoGuests.pop()
+console.log(grandHotelTremezzoGuests)
 
 
 
@@ -121,7 +125,8 @@ console.log(kilograms)
 // Log grandHotelTremezzoGuests to the console.
 
 
-
+grandHotelTremezzoGuests.push('Mario Batali')
+console.log(grandHotelTremezzoGuests)
 
 
 
@@ -135,7 +140,8 @@ console.log(kilograms)
 
 
 
-
+grandHotelTremezzoGuests.unshift('Gordon Ramsay')
+console.log(grandHotelTremezzoGuests)
 
 
 
@@ -146,7 +152,8 @@ console.log(kilograms)
 
 
 
-
+const totalGuests = grandHotelTremezzoGuests.length
+console.log(totalGuests)
 
 
 
