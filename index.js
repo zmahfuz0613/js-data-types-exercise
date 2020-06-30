@@ -58,7 +58,8 @@ const amount2 = 3;
 
 
 
-
+const total = amount1 + amount2
+console.log(total)
 
 
 
