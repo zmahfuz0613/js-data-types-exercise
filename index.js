@@ -32,12 +32,15 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 // Log this value to the console.
 // let bestClass = 'myCohortNameHere'
 
+let bestClass = "myCohortNameHere".toUpperCase()
+console.log(bestClass);
 
 // Set a constant named bestClassLowercase that converts bestClass to an all lowercase string.
 // Log this value to the console.
 
 
-
+let bestClassLowercase = bestClass.toLowerCase()
+console.log(bestClassLowercase)
 
 
 /********************************
