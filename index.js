@@ -167,7 +167,8 @@ console.log(totalGuests)
 // Log grandHotelTremezzoPastGuests to the console
 
 
-
+const grandHotelTremezzoPastGuests = []
+console.log(grandHotelTremezzoPastGuests)
 
 
 
@@ -180,7 +181,9 @@ console.log(totalGuests)
 
 
 
-
+grandHotelTremezzoGuests.splice(1, 1)
+grandHotelTremezzoPastGuests.push('George Clooney')
+console.log(grandHotelTremezzoGuests, grandHotelTremezzoPastGuests)
 
 
 
@@ -194,6 +197,7 @@ console.log(totalGuests)
 //  Log the variable to the console.
 
 
+console.log(grandHotelTremezzoGuests.length)
 
 
 
