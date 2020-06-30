@@ -263,7 +263,9 @@ console.log(list_grandHotelTremezzoGuests)
 
 
 
+const sleepingGuests = []
 
+console.log(sleepingGuests)
 
 
 // The guests passed out. Loop over the guests and add them to the sleepingGuests array.
@@ -273,7 +275,10 @@ console.log(list_grandHotelTremezzoGuests)
 
 
 
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  sleepingGuests.push(grandHotelTremezzoGuests[i])
+}
+console.log(sleepingGuests)
 
 
 
