@@ -214,7 +214,8 @@ console.log(grandHotelTremezzoGuests.length)
 // Create a variable that is a copy of the grandHotelTremezzoGuests
 // array and log the result.
 
-
+const list_grandHotelTremezzoGuests = grandHotelTremezzoGuests.slice(0);
+console.log(list_grandHotelTremezzoGuests)
 
 
 
@@ -226,6 +227,7 @@ console.log(grandHotelTremezzoGuests.length)
 // On your newly created variable containing the copy, see if the list
 // includes Gordon Ramsay, the boss' favorite chef.
 
+list_grandHotelTremezzoGuests.includes('Gordon Ramsay')
 
 
 
@@ -237,7 +239,8 @@ console.log(grandHotelTremezzoGuests.length)
 // Find the right method to accomplish this task.
 
 
-
+/ list_grandHotelTremezzoGuests.reverse()
+console.log(list_grandHotelTremezzoGuests)
 
 /********************************
  *
