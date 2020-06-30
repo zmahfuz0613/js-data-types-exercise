@@ -295,7 +295,9 @@ console.log(sleepingGuests)
 // for each guest in the grandHotelTremezzoGuests array.
 
 
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  console.log(grandHotelTremezzoGuests[i], 'gets a bottle of Nero de Como');
+}
 
 
 
@@ -306,7 +308,9 @@ console.log(sleepingGuests)
 
 
 
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  console.log(grandHotelTremezzoGuests[i], 'please hush up');
+}
 
 
 
