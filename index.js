@@ -325,6 +325,8 @@ for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
 // to the array of checked out guests). Log both grandHotelTremezzoGuests
 // and grandHotelTremezzoPastGuests in the same log statement.
 
-
+grandHotelTremezzoGuests.splice(1, 1)
+grandHotelTremezzoPastGuests.push('George Clooney','Gordon Ramsay','Silvio Berlusconi','Isabella Rossellini','Mario Batali')
+console.log(grandHotelTremezzoGuests, grandHotelTremezzoPastGuests)
 
 
