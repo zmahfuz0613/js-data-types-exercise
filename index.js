@@ -76,6 +76,9 @@ const pounds = 155;
 // Log kilograms to the console
 
 
+const kilograms = pounds * 0.453592
+console.log(kilograms)
+
 
 
 
