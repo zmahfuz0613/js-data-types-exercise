@@ -239,7 +239,7 @@ list_grandHotelTremezzoGuests.includes('Gordon Ramsay')
 // Find the right method to accomplish this task.
 
 
-/ list_grandHotelTremezzoGuests.reverse()
+list_grandHotelTremezzoGuests.reverse()
 console.log(list_grandHotelTremezzoGuests)
 
 /********************************
@@ -277,7 +277,7 @@ console.log(sleepingGuests)
 
 for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
   sleepingGuests.push(grandHotelTremezzoGuests[i])
-}
+}   
 console.log(sleepingGuests)
 
 
