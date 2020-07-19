@@ -152,7 +152,7 @@ console.log(grandHotelTremezzoGuests)
 
 
 
-const totalGuests = grandHotelTremezzoGuests.length
+let totalGuests = grandHotelTremezzoGuests.length
 console.log(totalGuests)
 
 
@@ -197,8 +197,8 @@ console.log(grandHotelTremezzoGuests, grandHotelTremezzoPastGuests)
 //  Log the variable to the console.
 
 
-console.log(grandHotelTremezzoGuests.length)
-
+totalGuests = grandHotelTremezzoGuests.length
+console.log(totalGuests)
 
 
 
@@ -277,7 +277,7 @@ console.log(sleepingGuests)
 
 for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
   sleepingGuests.push(grandHotelTremezzoGuests[i])
-}   
+}
 console.log(sleepingGuests)
 
 
@@ -326,7 +326,7 @@ for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
 // and grandHotelTremezzoPastGuests in the same log statement.
 
 grandHotelTremezzoGuests.splice(1, 1)
-grandHotelTremezzoPastGuests.push('George Clooney','Gordon Ramsay','Silvio Berlusconi','Isabella Rossellini','Mario Batali')
+grandHotelTremezzoPastGuests.push('George Clooney', 'Gordon Ramsay', 'Silvio Berlusconi', 'Isabella Rossellini', 'Mario Batali')
 console.log(grandHotelTremezzoGuests, grandHotelTremezzoPastGuests)
 
 
