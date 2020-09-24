@@ -26,6 +26,7 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
  * STEP A: Strings
  *
  *********************************/
+// this is a test
 
 
 // Set a constant named 'bestClass' equal to the name of our SEI class (myCohortNameHere) capitalized.
